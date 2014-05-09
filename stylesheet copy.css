@@ -1,0 +1,243 @@
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; 
+	
+  }
+
+@font-face { 
+		font-family:'fancy';
+		src: url('fonts/fancy.eot');
+		src: url('fonts/fancy.eot?iefix') format('eot'),
+	     url('fonts/fancy.woff') format('woff'),
+	     url('fonts/fancy.ttf') format('truetype'),
+	     url('fonts/fancy.svg#webfont') format('svg');
+}
+
+
+
+/*MAIN GREEN COLOUR: #16a085;*/
+
+body { 
+		background: lightgrey;
+		font-family: helvetica, arial, sans-serif;
+		text-align: center;
+}
+
+
+ .wrapper {
+
+ 	margin: 0 auto;
+	max-width: 100%;
+
+}
+
+	
+ 
+
+
+nav { max-width: 100%;
+	  height: 100px;
+	  background-color: #ecf0f1;
+
+
+	}
+
+
+
+nav ul { 
+	      margin: 0px 0px 10px 0px;
+	     padding: 0px;
+		 
+}
+
+nav ul p { 
+	 	float: left;
+	 	font-size: 90px;
+	 	color:   #ecf0f1;
+	 	margin: 45px 0px 0px 10px;
+	 	padding-left: 20px;
+	 	
+
+
+
+}
+
+nav ul li  { 
+			 display: inline;
+			 padding: 40px 45px 20px 0px;
+			 list-style-type: none;
+			 float:right;
+			 
+				
+
+}
+nav ul li a { text-decoration: none;
+			  color: #bdc3c7;
+			  padding-bottom: 1px;
+			  border-bottom: 1px #bdc3c7 solid;
+
+			}
+
+nav ul li a:hover { color: #e67e22;
+			
+			}
+/*#####################NAV BAR END########################*/
+/*##########################################################*/
+
+
+.home { max-width: 100%;
+        height: 600px;
+        background: url(images/car.jpg);
+        background-size:cover;
+        background-attachment: fixed;
+        border-bottom: 2px solid #e67e22;
+        margin: 0 auto;
+        padding: 0px;
+}
+
+ .name  { 	margin: 0 auto;
+			padding: 4px 0px 0px 4px;
+			margin: 60px 0px;
+			display: inline-block;
+			border-bottom: 3px solid #e67e22;
+			border-top: 3px solid #e67e22;
+		}
+			
+
+.name h1 {		
+			font-family: "fancy";
+			font-size: 150px;
+			padding: 0px;
+			margin: 0px;
+			font-weight: 100;
+			color: #ecf0f1;
+			
+		}
+			
+
+			
+
+
+
+/*############################HOME SECTION###################*/
+/*##############################PAGE BREAK SECTION###############*/
+
+
+.pagebreak { max-width: 100%;
+			 height: 100px;
+			 background: #ecf0f1;
+
+
+}
+
+.pagebreak p { float: left;
+	 	font-size: 90px;
+	 	color:  #ecf0f1;
+	 	margin: 45px 0px 0px 10px;
+	 	padding-left: 20px;}
+/*
+############################PAGE BREAK ########################*/
+/*##########################ABOUT###########################*/
+
+.about { max-width: 100%;
+        height: 600px;
+        background:#16a085;
+        margin: 0 auto;
+        padding: 0px;
+        border-bottom: 2px solid #e67e22;
+    }
+.about h1 { text-align: center;
+			margin: 0 auto;
+			padding: 100px 0px 0px 0px;
+
+
+	}
+
+.about img { height: 300px;
+			 width: 200px;
+			 border: 2px solid #e67e22;
+			 border-radius: 10px;
+			 margin-top: 50px;
+
+	
+
+}
+
+.about p { 
+	color: #bdc3c7;
+	margin: 20px 100px;
+	
+}
+
+
+/*#######################FEATURES SECTION############################*/
+
+.worksect { max-width: 100%;
+        height: 600px;
+        background:#16a085;
+        margin: 0 auto;
+        padding: 0px;
+        border-bottom: 2px solid #e67e22;
+
+
+    }
+
+
+.worksect .dev {
+		float:left;
+		margin: 10% 0% 0% 2%;
+		width: 30%;
+		height: 30%;
+
+	}
+
+.worksect .dev img {
+	height: 150px;
+	width: 150px;
+	border-bottom: 3px solid #e67e22;
+	border-top: 3px solid #e67e22;
+	padding: 8px 0px; 
+
+}
+
+.worksect .dev p { 
+		text-align: center;
+		font-size: 15px;
+		color: #bdc3c7;
+}
+
+.worksect .ux {
+ 	
+ 		float:right;
+		margin: 10% 5% 0% 0%;
+		width: 30%;
+		height: 30%;
+
+
+}
+
+.worksect .ux img{
+
+	height: 150px;
+	width: 150px;
+	border-bottom: 3px solid #e67e22;
+	border-top: 3px solid #e67e22;
+	padding: 10px 0px;
+}
+
+.worksect .ux p { 
+	text-align: center;
+	font-size: 15px;
+	color: #bdc3c7;
+
+}
+
+
+/*####################FOOTER##########################################*/
+
+.footer { max-width: 100%;
+			 height: 100px;
+			 background: #ecf0f1;
+			 margin: 0 auto;
+}
+
+
+
